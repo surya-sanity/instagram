@@ -22,17 +22,20 @@ class _ProfileState extends State<Profile> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                SizedBox(
+                  height: SizeConfig.screenHeight / 70,
+                ),
                 ProfileHeader(),
                 SizedBox(
-                  height: SizeConfig.screenHeight / 90,
+                  height: SizeConfig.screenHeight / 80,
                 ),
                 BioContainer(),
                 SizedBox(
-                  height: SizeConfig.screenHeight / 90,
+                  height: SizeConfig.screenHeight / 70,
                 ),
                 ProfileActions(),
                 SizedBox(
-                  height: SizeConfig.screenHeight / 80,
+                  height: SizeConfig.screenHeight / 50,
                 ),
               ],
             ),

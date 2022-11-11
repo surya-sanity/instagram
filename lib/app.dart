@@ -45,7 +45,7 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: instaAppBar(context),
+      appBar: instaAppBar(context, currentTab),
       body: SafeArea(
         child: Stack(
           children: [
