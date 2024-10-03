@@ -21,7 +21,7 @@ Map<Tabs, Widget> activeTab = {
 
 class App extends StatefulWidget {
   App({this.body});
-  final Widget body;
+  final Widget? body;
 
   @override
   _AppState createState() => _AppState();

@@ -13,15 +13,15 @@ class Post {
   bool isSaved;
 
   Post({
-    this.user,
-    this.location,
-    this.postImage,
-    this.postDesc,
+    required this.user,
+    required this.location,
+    required this.postImage,
+    required this.postDesc,
     this.fromTime = "15m",
-    this.commentsCount,
-    this.likeCount,
-    this.isStoryActive,
-    this.isLiked,
-    this.isSaved,
+    required this.commentsCount,
+    required this.likeCount,
+    required this.isStoryActive,
+    required this.isLiked,
+    required this.isSaved,
   });
 }

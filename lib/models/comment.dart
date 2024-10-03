@@ -10,12 +10,12 @@ class Comment {
   List<Comment> replies;
 
   Comment({
-    this.user,
-    this.commentTxt,
-    this.isLiked,
-    this.likeCount,
-    this.fromTime,
-    this.replyCount,
-    this.replies,
+    required this.user,
+    required this.commentTxt,
+    this.isLiked = false,
+    this.likeCount = 0,
+    required this.fromTime,
+    this.replyCount = 0,
+    this.replies = const [],
   });
 }

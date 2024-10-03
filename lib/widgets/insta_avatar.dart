@@ -3,7 +3,7 @@ import 'package:instagram/models/user.dart';
 import 'package:instagram/utils/colors.dart';
 
 class InstaAvatar extends StatelessWidget {
-  const InstaAvatar({@required this.user, @required this.avatarSize});
+  const InstaAvatar({required this.user, required this.avatarSize});
   final User user;
   final double avatarSize;
 

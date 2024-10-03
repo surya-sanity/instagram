@@ -6,11 +6,11 @@ class InstaIcon extends StatelessWidget {
   const InstaIcon({
     this.size,
     this.iconColor,
-    @required this.iconPath,
+    required this.iconPath,
   });
-  final double size;
+  final double? size;
   final String iconPath;
-  final Color iconColor;
+  final Color? iconColor;
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);

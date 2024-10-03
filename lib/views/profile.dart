@@ -152,7 +152,7 @@ class _ProfileState extends State<Profile> {
 
 class ProfileActions extends StatelessWidget {
   const ProfileActions({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -228,7 +228,7 @@ class ProfileActions extends StatelessWidget {
 
 class BioContainer extends StatelessWidget {
   const BioContainer({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -268,7 +268,7 @@ class BioContainer extends StatelessWidget {
 
 class ProfileHeader extends StatelessWidget {
   const ProfileHeader({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

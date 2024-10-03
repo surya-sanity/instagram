@@ -276,16 +276,16 @@ List<Post> feed = [
   ...List.generate(
     30,
     (index) => Post(
-      user: users[Random().nextInt(users.length)],
-      likeCount: Random().nextInt(10000),
-      commentsCount: Random().nextInt(10000),
-      isLiked: Random().nextBool(),
-      isSaved: Random().nextBool(),
-      fromTime: Random().nextInt(50).toString(),
-      location: "Asgard",
-      postDesc: "Really ? c'mon",
-      postImage: feedImages[Random().nextInt(feedImages.length)],
-    ),
+        user: users[Random().nextInt(users.length)],
+        likeCount: Random().nextInt(10000),
+        commentsCount: Random().nextInt(10000),
+        isLiked: Random().nextBool(),
+        isSaved: Random().nextBool(),
+        fromTime: Random().nextInt(50).toString(),
+        location: "Asgard",
+        postDesc: "Really ? c'mon",
+        postImage: feedImages[Random().nextInt(feedImages.length)],
+        isStoryActive: false),
   ),
 ];
 

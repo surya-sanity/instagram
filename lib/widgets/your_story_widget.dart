@@ -4,8 +4,8 @@ import 'package:instagram/utils/insta_icon.dart';
 
 class YourStory extends StatelessWidget {
   const YourStory({
-    @required this.user,
-    @required this.avatarSize,
+    required this.user,
+    required this.avatarSize,
     this.addMode = false,
   });
   final User user;

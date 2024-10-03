@@ -7,7 +7,7 @@ class Story {
   bool viewed;
 
   Story({
-    this.user,
+    required this.user,
     this.isClose = false,
     this.timeFrom = "25m",
     this.viewed = false,

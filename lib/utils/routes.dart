@@ -24,10 +24,7 @@ class AppRoutes {
     );
   }
 
-  static pop(BuildContext context, {bool popWith}) {
-    if (popWith == null) {
-      return Navigator.of(context).pop();
-    }
+  static pop(BuildContext context, {required bool popWith}) {
     return Navigator.of(context).pop(popWith);
   }
 }

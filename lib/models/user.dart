@@ -14,16 +14,16 @@ class User {
   List<Post> posts;
 
   User({
-    this.userName,
-    this.followersCount,
-    this.followingCount,
-    this.name,
-    this.profileImage,
-    this.isVerified,
-    this.isStoryActive,
-    this.isLive,
-    this.posts,
-    this.postsCount,
-    this.status,
+    required this.userName,
+    required this.followersCount,
+    required this.followingCount,
+    required this.name,
+    required this.profileImage,
+    required this.isVerified,
+    required this.isStoryActive,
+    required this.isLive,
+    required this.posts,
+    required this.postsCount,
+    required this.status,
   });
 }
